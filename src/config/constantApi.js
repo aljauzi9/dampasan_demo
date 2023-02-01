@@ -1,0 +1,41 @@
+export const CONSTANT = {
+	API_MANAGEMENT_HOST: process.env.REACT_APP_API_HOST,
+	API_MANAGEMENT_HOST_S3_IMAGE: process.env.REACT_APP_S3_IMAGE,
+
+	// NOTE STATIC PAGE
+	API_MANAGEMENT_ABOUT: '/v1/public/video',
+	API_MANAGEMENT_FAQ: '/v1/public/faq',
+	API_MANAGEMENT_TERMSCONDITIONS: '/v1/public/terms_and_condition',
+	API_MANAGEMENT_PRIVACYPOLICY: '/v1/public/privacy_policy',
+
+	// NOTE STATUS HTTP CODE
+	SUCCESS_CODE: 200,
+	CREATED_CODE: 201,
+	UNAUTHORIZED_CODE: 401,
+	FORBIDDEN_CODE: 403,
+
+	// NOTE STATUS HTTP MESSAGE RESPONSE
+	UNAUTHORIZED_TEXT: "Unauthorized",
+	INVALID_TOKEN_TEXT: "invalid_token",
+	UNALLOWED_TEXT: "User not Allowed",
+
+	// NOTE MESSAGE TEXT
+	MSG_USER_LOGOUT: "User Logged Out...!!",
+	MSG_USER_UNAUTHORIZED: "Not authorized",
+	MSG_REFERESH_TOKEN_SUCCES: "Refresh Token Successfully",
+	MSG_VERIFICATION_MAIL_SUCCESS: "Verification Successfully",
+	MSG_VERIFICATION_MAIL_FAILURE: "Verification Failure",
+	MSG_GET_PROFIL_SUCCESS: "Get Profil Successfully",
+	MSG_GET_PROFIL_FAILURE: "Get Profil Failure",
+
+	// NOTE STATUS TYPE
+	STATUS_TYPE_SUCCESS: "success",
+	STATUS_TYPE_ERROR: "error",
+
+	// NOTE CHECK VALUE
+	CHECK_VALUE_NULL: null,
+	CHECK_VALUE_UNDEFINED: undefined,
+	CHECK_VALUE_EMPTY_STRING: ''
+};
+
+export default CONSTANT;
